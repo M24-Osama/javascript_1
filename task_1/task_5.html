@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="pr"></p>
+    <script>
+      let x = prompt("Enter the X", "");
+      let y = prompt("Enter the Y", "");
+      if (x > y) {
+        document.getElementById("pr").innerHTML = "Hello World";
+        alert("Hello World");
+        console.log("Hello World");
+        document.write("Hello World");
+      } else {
+        document.getElementById("pr").innerHTML = "Goodbye";
+        alert("Goodbye");
+        console.log("Goodbye");
+        document.write("Goodbye");
+      }
+    </script>
+  </body>
+</html>
